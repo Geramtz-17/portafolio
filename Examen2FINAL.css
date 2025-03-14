@@ -1,0 +1,70 @@
+
+body {
+  background-color: lightcyan;
+    color: navy;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+      font-size: 20px;
+    text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 150px 16px;
+}
+
+
+img {
+    align-content: right;
+    display: flex;
+    justify-content: center;
+    border: 20px solid #192;
+   border-radius: 50%;
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+td {
+  text-align: center;
+  height: 60px;
+}
+th {
+    text-align: center;
+ background-color: blue;
+ color: black;
+
+}
+.francia{
+  background-image:linear-gradient(90deg,red 33%, white 33%, white 66.66%, blue 66.66%);
+}
+.italia{
+  background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+.alemania{
+  background-image:linear-gradient(black 33%, red 33%, red 66.66%, yellow 66.66%);
+  color:#fff;
+}
+.flex-container {
+  display: 200px;
+  flex-direction: column;
+}

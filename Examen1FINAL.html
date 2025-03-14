@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gerardo Martinez">
+  <title>Evaluación parcial pt.1</title>
+  <link rel="stylesheet" href="Examen2FINAL.css">
+  <style>
+ .flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: green;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  font-size: 16px;
+  background-color: darkgreen;
+  color: white;
+}
+</style>
+</head>
+<style type="text/css">
+	table, th, td {
+  border: 1px solid black;
+}
+</style>
+<body>
+<!-- 1.1 -->	
+	<h1> Universidad Cristóbal Colón </h1>
+	<h2> Evaluación Parcial </h2>
+	<h3> José Gerardo Martínez Miranda </h3>
+	<img src="images.png" alt="Logotipo de la Universidad Cristóbal Colón">
+	<p> Nombres de películas de mayor a menor importancia (Orden inverso) </p>
+	<ol>
+		<li> Flow </li>
+		<li> La semilla de la higuera sagrada </li>
+		<li> Emilia Pérez</li>
+		<li> La chica de la aguja </li>
+		<li> Aún estoy aquí </li>
+	</ol>
+<!-- 1.2 -->
+ <table>
+  <tr style="height: 60px; width: 50px;">
+  	<th> Rango de edades </th>
+    <th colspan="2">Mujeres</th>
+    <th colspan="2">Hombres</th>
+    <th colspan="2">Promedio General</th>
+  </tr>
+  <tr>
+  	<td></td>
+    <td>  Estatura   </td>
+    <td> Peso </td>
+    <td>  Estatura   </td>
+    <td> Peso </td>
+    <td>  Estatura </td>
+    <td> Peso </td>
+  </tr>
+  <tr>
+    <td> 5-10</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 5-10</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 11-15</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 16-20</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 21-25</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 26-30</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 31-35</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+    <tr>
+    <td> 36-40</td>
+    <td> 0.9  </td>
+    <td> 35 </td>
+ 	<td> 1.1 </td>
+ 	<td> 38 </td>
+ 	<td> 1.0 </td>
+ 	<td> 36.5 </td>
+  </tr>
+</table>
+
+<!-- 1.3 -->
+<form>
+  <p> Nombre completo </p>
+  <input type="text" id="n_completo" name="n_completo"><br>
+  <p> Correo electrónico </p>
+  <input type="text" id="correo" name="correo">
+  <p> Edad </p>
+  <input type="text" id="edad" name="edad">
+  <p> Fecha de nacimiento: </p>
+  
+  <input type="text" id="f_nac" name="f_nac">
+  <p> Estado civil: </p>
+  <input type="radio" id="soltero" name="E_Civil" value="Soltero">
+  <label for="html">Soltero(a)</label><br>
+  <input type="radio" id="casado" name="E_Civil" value="Casado">
+  <label for="html">Casado(a)</label><br>
+  <input type="radio" id="viudo" name="E_Civil" value="Viudo">
+  <label for="html">Viudo(a)</label><br>
+  <p> Intereses principales: </p>
+  <input type="checkbox" id="fb" name="fb" value="Futbol">
+  <label for="vehicle1"> Futbol </label><br>
+  <input type="checkbox" id="bsqt" name="bsqt" value="Basquetbol">
+  <label for="vehicle2"> Basquetbol</label><br>
+  <input type="checkbox" id="otro" name="otro" value="Otro">
+  <label for="vehicle3"> Otro</label>
+
+
+</form>
+ <input type="submit" value="Enviar">
+  <input type="submit" value="Cancelar"> <br><br>
+  <br>
+<!-- 2.2 -->
+	<img src="mapache.jpg" alt="Mapache">
+	<img src="Tigre.jpg" alt="Tigre">
+		<img src="gato.webp" alt="Gato">
+		<!-- 2.3-->
+<div class="card">
+	<h1> Lengua de suegra </h1><br> <h1> Sansevieria </h1>
+  <img src="planta.webp" alt="Planta" style="width:200 px; height: 200px" align="up">
+  <div class="container">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet faucibus est, non egestas turpis tincidunt id. Ut sit amet venenatis nisl. Morbi eu semper lorem, et ornare nisl. Aliquam et lorem ut dui elementum lobortis ac nec justo. Quisque nec auctor neque. Nunc ut metus in eros sodales pretium. Nam malesuada pellentesque ante sed blandit. Donec aliquet posuere hendrerit. Morbi risus risus, rutrum eu dignissim at, ultricies in ligula. In nisl nunc, porttitor eu erat sit amet, faucibus tristique turpis. Phasellus tempor vestibulum tortor, vitae faucibus magna rutrum quis. Donec ultrices commodo lectus aliquam fermentum. Sed eleifend odio quis pharetra viverra. Mauris id cursus eros. Etiam et orci felis. </p>
+  </div>
+</div>
+<div class="flex-container">
+	<div class="francia"></div>
+	<div class="italia"></div>
+	<div class="alemania"></div>
+</div>
+</body>
